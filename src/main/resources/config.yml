@@ -1,0 +1,4 @@
+# If this is enabled, a world will be copied instead of created from scratch
+copy-enabled: false
+# The name of the world to copy, useful if you use a custom world
+base-world: "world_the_end"

@@ -1,0 +1,11 @@
+name: PrivateEnderWorlds
+version: ${project.version}
+main: me.ephan.privateenderworlds.PrivateEnderWorlds
+api-version: 1.16
+authors: [ ephan ]
+description: Private Ender World plugin
+
+commands:
+  enderworld:
+    description: Opens the ender world menu
+    usage: /enderworld
