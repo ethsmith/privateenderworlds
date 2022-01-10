@@ -1,4 +1,28 @@
-# If this is enabled, a world will be copied instead of created from scratch
-copy-enabled: false
 # The name of the world to copy, useful if you use a custom world
-base-world: "world_the_end"
+General:
+  # World that is copied (or created) as a template for new End Worlds
+  BASE_WORLD: "world_the_end"
+
+  # Max allowed players that can join the world excluding the owner
+  MAX_MEMBERS: 3
+
+Messages:
+  WORLD_CREATED: "&5You have created an End World!"
+
+  WORLD_ENTERED: "&5You have entered your End World!"
+
+  WORLD_EXITED: "&5You have exited your End World!"
+
+  WORLD_DELETED: "&5You have deleted an End World!"
+
+  WORLD_LEFT: "&5You have left an End World!"
+
+  WORLD_MENU_CLOSED: "&5You have closed the End World menu!"
+
+  WORLD_MEMBER_ADDED: "&5You have added one or more members to your End World!"
+
+  WORLD_MEMBER_REMOVED: "&5You have removed one or more members from your End World!"
+
+  MEMBER_NOT_OWNER: "&5You do not own the End World!"
+
+  WORLD_DOESNT_EXIST: "&5You are not part of an End World!"
